@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> açıkla
+    <title>Form ve Input Dersi</title>
+</head>
+
+<body>
+
+    <form>
+        <label for="AdIdsi"> Adınız:
+            <input id="AdIdsi" type="text" placeholder="İsim girin">
+        </label>
+        <br>
+        <label for="kadın">
+            Cinsiyet:
+            <input id="kadın" name="Secim" type="radio">Kadın
+        </label>
+        <label for="erkek">
+            <input id="erkek" name="Secim" type="radio">Erkek
+        </label>
+        <br>
+        <h4>Hobiler:
+            <label for="kitap">
+                <input id="kitap" type="checkbox">Kitap Okumak
+            </label>
+
+            <label for="spor">
+                <input id="spor" type="checkbox">Spor yapmak
+            </label>
+
+            <label for="yüzme">
+                <input id="yüzme" type="checkbox">Yüzmek
+            </label>
+
+            <br>
+            <br>
+
+            <label for="soyad">Soyadınız:
+                <input value="" id="soyad" type="text">
+            </label>
+
+            <br>
+
+        </h4>
+
+        <label> Şehirler:
+            <select>
+                <option>Ankara</option>
+                <option>İstanbul</option>
+                <option>Adana</option>
+                <option>Çanakkale</option>
+                <option>Yalova</option>
+            </select>
+
+        </label>
+
+        <br>
+
+        <button type="submit">
+            Kaydet
+        </button>
+
+    </form>
+
+</body>
+
+</html>
+
+
+<!--
+    <form> = Verileri gruplar ve gönderilecek yeri tanımlar 
+    <label> = Inputlara açıklama ekler 
+        type=
+        text = metin alanı
+        radio = seçenek alanı 
+        checkbox = birden fazla seçim
+ 
+    <select> = önceden tanımlı seçenekler arasından birini seçtirmeye yarayan açılır liste
+    <option> =  Her bir seçeneği temsil eder.
+-->
